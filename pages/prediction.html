@@ -125,8 +125,188 @@
     </section>
 
     <hr>
+<!-- Prediction Form -->
+    <section>
+
+        <center>
+            <h2>🔍 Advanced Prediction Form 🔍</h2>
+        </center>
+
+        <form action="result.html">
+
+            <!-- Crop Details -->
+            <fieldset>
+                <legend>🌾 Crop Information</legend>
+
+                <img src="../img/prediction-page-image/crop-icon.png" width="100" height="100" alt="Crop Icon">
 
 
+                <p>
+                    <label>🌱 Crop Type:</label><br>
+                    <select name="crop">
+                        <option>Select Crop</option>
+                        <option>Rice</option>
+                        <option>Wheat</option>
+                        <option>Cotton</option>
+                        <option>Sugarcane</option>
+                        <option>Tomato</option>
+                        <option>Soybean</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>📅 Crop Growth Stage:</label><br>
+                    <select name="growth">
+                        <option>Select Stage</option>
+                        <option>Seedling</option>
+                        <option>Vegetative</option>
+                        <option>Flowering</option>
+                        <option>Harvesting</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>🌿 Crop Age (Days):</label><br>
+                    <input type="number" name="age">
+                </p>
+            </fieldset>
+
+            <br>
+
+            <!-- Soil Details -->
+            <fieldset>
+                <legend>🌍 Soil Information</legend>
+
+                <img src="../img/prediction-page-image/soil-icon.png" width="100" height="100" alt="Soil Icon">
+
+
+                <p>
+                    <label>🌱 Soil Type:</label><br>
+                    <select name="soil">
+                        <option>Select Soil</option>
+                        <option>Black Soil</option>
+                        <option>Loamy Soil</option>
+                        <option>Sandy Soil</option>
+                        <option>Clay Soil</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>💧 Soil Moisture:</label><br>
+                    <input type="range" min="0" max="100">
+                </p>
+
+                <p>
+                    <label>⚗ Soil pH Level:</label><br>
+                    <input type="number" step="0.1">
+                </p>
+            </fieldset>
+
+            <br>
+
+            <!-- Weather Details -->
+            <fieldset>
+                <legend>🌦 Weather Information</legend>
+
+
+                <img src="../img/prediction-page-image/weather-icon.png" width="100" height="100" alt="Weather Icon">
+
+
+                <p>
+                    <label>☀ Weather Condition:</label><br>
+                    <select name="weather">
+                        <option>Select Weather</option>
+                        <option>Sunny</option>
+                        <option>Rainy</option>
+                        <option>Humid</option>
+                        <option>Dry</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>🌡 Temperature (°C):</label><br>
+                    <input type="number" name="temperature">
+                </p>
+
+                <p>
+                    <label>💧 Humidity (%):</label><br>
+                    <input type="number" name="humidity">
+                </p>
+            </fieldset>
+
+            <br>
+
+            <!-- Pest Details -->
+            <fieldset>
+                <legend>🐛 Pest Information</legend>
+
+
+                <img src="../img/prediction-page-image/pest-icon.png" width="100" height="100" alt="Pest Icon">
+
+
+                <p>
+                    <label>🐞 Pest Type:</label><br>
+                    <select name="pest">
+                        <option>Select Pest</option>
+                        <option>Leaf Spots</option>
+                        <option>Stem Borer</option>
+                        <option>Aphids</option>
+                        <option>Whiteflies</option>
+                        <option>Fungal Infection</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>⚠ Pest Severity:</label><br>
+                    <select name="severity">
+                        <option>Select Severity</option>
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>📝 Visible Symptoms:</label><br>
+                    <textarea rows="4" cols="40" placeholder="Describe symptoms"></textarea>
+                </p>
+            </fieldset>
+
+            <br>
+            <!-- Prediction Meter -->
+            <fieldset>
+                <legend>📊 Prediction Progress</legend>
+
+                <img src="../img/prediction-page-image/prediction-progress-icon.png" width="100" height="100" alt="Prediction progress">
+
+                <p>
+                    Form Completion:<br>
+                    <progress value="85" max="100"></progress>
+                </p>
+
+                <p>
+                    Prediction Accuracy:<br>
+                    <meter value="95" min="0" max="100"></meter>
+                </p>
+            </fieldset>
+
+            <br>
+            <hr>
+
+            <!-- Buttons -->
+            <center>
+                <input type="submit" value="🌿 Predict Pesticide">
+                <input type="reset" value="🔄 Reset Form">
+            </center>
+
+        </form>
+
+    </section>
+
+    <hr>
+    <br>
+
+    
 
 </body>
 </html>
