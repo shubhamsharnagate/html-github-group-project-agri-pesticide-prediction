@@ -17,7 +17,7 @@ The system provides a simple interface where users can enter information and vie
 ---
 
 ## 🛠 Technologies Used
-- HTML
+- HTML5
 
 ---
 
@@ -67,18 +67,24 @@ The system provides a simple interface where users can enter information and vie
 
 ## 👥 Team Members
 - Prajakta Dharpure
+- Shubham Sharnagate
+- Kaweri Harinkhede
+- Pranali Shende
+- Sakshi Nagade
+- Kalyani Gadhe
 
 
 ---
 
 ## 📷 Project Preview
-(Add screenshots here)
+![prediction page](img/project-screenshot/prediction-screenshot.png)
+![result page](img/project-screenshot/result-screenshot.png)
 
 ---
 
 ## 📞 Contact
 Email: support@agriculture.com  
-Phone: 9876543210  
+Phone: 9359910468
 
 ---
 
