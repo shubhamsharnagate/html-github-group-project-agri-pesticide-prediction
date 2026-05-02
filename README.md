@@ -67,6 +67,11 @@ The system provides a simple interface where users can enter information and vie
 
 ## 👥 Team Members
 - Prajakta Dharpure
+- Shubham Sharnagate
+- Kaweri Harinkhede
+- Pranali Shende
+- Sakshi Nagade
+- Kalyani
 
 
 ---
@@ -78,7 +83,7 @@ The system provides a simple interface where users can enter information and vie
 
 ## 📞 Contact
 Email: support@agriculture.com  
-Phone: 9876543210  
+Phone: 9359910468
 
 ---
 
