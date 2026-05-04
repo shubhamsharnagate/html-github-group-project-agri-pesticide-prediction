@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Agriculture System</title>
 </head>
 
 <body>
-<div align="right">
-        🌍 Language:
-        <select>
-            <option>English</option>
-            <option>हिंदी</option>
-            <option>मराठी</option>
-        </select>
-    </div>
-    
+
+    <!-- Header -->
     <header>
-        <h1 align="center">🌾 Smart Agriculture Pesticide System</h1>
+        <div align="right">
+
+            🌍 Language:
+            <select>
+                <option>English</option>
+                <option>हिंदी</option>
+                <option>मराठी</option>
+            </select>
+        </div>
+
+        <h1 align="center">🌾 Smart Agriculture Pesticide System 🌾</h1>
         <p align="center"><i>Empowering Farmers with Smart Decisions</i></p>
     </header>
 
     <hr>
 
+    <!-- Navigation -->
     <nav align="center">
         <a href="pages/login.html">Login</a> |
         <a href="pages/register.html">Register</a> |
-        <a href="index.html">Home</a> |
+        <a href="index.html"><strong>Home</strong></a> |
         <a href="pages/prediction.html">Prediction</a> |
         <a href="pages/about.html">About</a> |
         <a href="pages/contact.html">Contact</a>
@@ -35,148 +41,228 @@
 
     <main>
 
+        <!-- HERO SECTION -->
         <section>
+            <center>
+                <h2>🌿 Welcome to Smart Farming Support</h2>
 
-            <h2 align="center">👨‍🌾Welcome Farmers 👩‍🌾</h2>
+                <img src="image/prediction-page-image/prediction-page-banner.jpg" width="900" height="300">
 
-            <p align="center">
-                Agriculture plays a vital role in our country. Farmers often face problems
-                in selecting the correct pesticide for their crops. This system helps farmers
-                choose the <b>right pesticide</b> based on crop and disease conditions.
-            </p>
+                <p>
 
-            <p align="center">
-                Using the correct pesticide improves <i>crop quality</i>, reduces
-                <u>crop damage</u>, and increases overall productivity.
-            </p>
+                    This project helps farmers choose the right pesticide based on crop,
 
-            <hr>
+                    soil, weather, and pest conditions.
+                </p>
 
-            <h3>🌟 Key Features</h3>
-            <ul>
-                <li>Simple and easy-to-use interface</li>
-                <li>Quick pesticide recommendations</li>
-                <li>Based on crop and disease type</li>
-                <li>Includes safety instructions</li>
-                <li>Farmer-friendly design</li>
-            </ul>
+                <p>
 
-            <hr>
+                    It is simple, easy to use, and designed for basic understanding.
+                </p>
 
+                <br>
+
+                <a href="pages/prediction.html">
+                    <button>🌿 Start Prediction</button>
+                </a>
+
+                <a href="pages/about.html">
+                    <button>📖 Learn More</button>
+                </a>
+            </center>
+        </section>
+
+        <hr>
+
+        <!-- FEATURE CARDS -->
+        <section>
+            <center>
+                <h3>🌟 Key Features</h3>
+
+                <table border="1" cellpadding="20">
+                    <tr>
+                        <td align="center">
+
+                            🌾 <br><b>Crop Analysis</b><br>
+
+                            Helps select pesticide based on crop type
+                        </td>
+
+                        <td align="center">
+
+                            🌦 <br><b>Weather Input</b><br>
+
+                            Considers weather conditions
+                        </td>
+
+                        <td align="center">
+
+                            🐛 <br><b>Pest Detection</b><br>
+
+                            Based on pest symptoms
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+
+        <hr>
+
+        <!-- BENEFITS -->
+        <section>
             <h3>🌱 Benefits for Farmers</h3>
             <ul>
-                <li>Improves crop yield and quality</li>
-                <li>Reduces misuse of pesticides</li>
-                <li>Saves time and effort</li>
-                <li>Supports better farming decisions</li>
-                <li>Encourages safe pesticide usage</li>
+                <li>✔ Reduces wrong pesticide usage</li>
+                <li>✔ Improves crop health</li>
+                <li>✔ Saves time and effort</li>
+                <li>✔ Helps in better decision making</li>
             </ul>
+        </section>
 
-            <hr>
+        <hr>
 
-            <h3 align="center">📊 System Workflow</h3>
+        <!-- SYSTEM FLOW -->
+        <section>
+            <h3 align="center">📊 How It Works</h3>
 
-            <table width="100%" border="1" cellpadding="10">
+            <table border="1" width="100%" cellpadding="10">
                 <tr>
-                    <td align="center">
-                        <b>Step 1</b><br>
-                        Enter crop and disease details
-                    </td>
-
-                    <td align="center">
-                        <b>Step 2</b><br>
-                        System processes input (static)
-                    </td>
-
-                    <td align="center">
-                        <b>Step 3</b><br>
-                        Displays pesticide recommendation
-                    </td>
+                    <td align="center">🌾 Enter Details</td>
+                    <td align="center">⚙ System Processes</td>
+                    <td align="center">📋 Get Result</td>
                 </tr>
             </table>
+        </section>
 
-            <hr>
+        <hr>
 
-            <h3>📖 What is a Pesticide?</h3>
-            <dl>
-                <dt><b>Pesticide</b></dt>
-                <dd>
-                    A chemical or biological substance used to protect crops from pests,
-                    diseases, and weeds. Proper use helps maintain crop health.
-                </dd>
-            </dl>
+        <!-- PEST GALLERY PREVIEW -->
+        <section>
+            <center>
+                <h3>🐛 Common Pest Examples</h3>
 
-            <hr>
+                <img src="image/prediction-page-image/leaf-pest.jpg" width="200">
+                <img src="image/prediction-page-image/tomato-pest.jpg" width="200">
+                <img src="image/prediction-page-image/cotton-pest.jpg" width="200">
 
-            <h3>📌 Types of Crops</h3>
+                <p><i>Identify pests early to prevent crop damage</i></p>
+            </center>
+        </section>
+
+        <hr>
+
+        <!-- FARMER GUIDANCE -->
+        <section>
+            <h3>👨‍🌾 Farmer Guidance</h3>
+
             <ol>
-                <li>Food Crops (Rice, Wheat)</li>
-                <li>Cash Crops (Cotton, Sugarcane)</li>
-                <li>Horticulture Crops (Fruits, Vegetables)</li>
+                <li>Select crop type</li>
+                <li>Check soil condition</li>
+                <li>Observe pest symptoms</li>
+                <li>Enter details in prediction form</li>
+                <li>View recommended pesticide</li>
             </ol>
+        </section>
 
-            <hr>
+        <hr>
 
-            <h3 align="center">👨‍🌾 Farmer Safety Tips</h3>
-            <marquee>
-                Always wear protective gear | Avoid spraying during strong wind |
-                Do not overuse pesticides | Keep away from children
-            </marquee>
+        <!-- VIDEO -->
+        <section>
+            <center>
+                <h3>🎥 Awareness Video</h3>
 
-            <hr>
+                <video width="700" height="400" controls>
+                    <source src="image/prediction-page-image/pesticide-safety-awareness-video.mp4" type="video/mp4">
+                </video>
+            </center>
+        </section>
 
-            <h3>🖼️ Farm Image</h3>
-            <figure>
-                <img src="image/prediction-page-image/crop-field.jpg" width="350">
-                <figcaption>Healthy Crop Field Example</figcaption>
-            </figure>
+        <hr>
 
-            <hr>
-
-            <h3>🎥 Farming Awareness Video</h3>
-            <iframe width="350" height="220" src="https://www.youtube.com/embed/VIDEO_ID">
-            </iframe>
-
-            <hr>
-
-            <h3>🔊 Audio Instructions</h3>
-            <audio controls>
-                <source src="audio/guide.mp3" type="audio/mpeg">
-            </audio>
-
-            <hr>
-
-            <h3>📊 System Progress</h3>
-            <p>Project Completion:</p>
-            <progress value="80" max="100"></progress>
-
-            <p>Efficiency Level:</p>
-            <meter value="0.7">70%</meter>
-
-            <hr>
-
+        <!-- EXTRA INFO -->
+        <section>
             <details>
-                <summary><b>Click to Learn More</b></summary>
+                <summary><b>📌 Project Note</b></summary>
                 <p>
-                    This system is currently a basic prototype built using HTML.
-                    In future, it can be improved using advanced technologies like
-                    JavaScript, backend integration, and machine learning.
+
+                    This project is created as part of a group assignment.
+
+                    It is a basic system and can be improved further with real data.
                 </p>
             </details>
+        </section>
 
+        <hr>
+
+        <!-- Did You Know -->
+        <section>
+            <h3>🌍 Did You Know?</h3>
+
+            <ul>
+                <li>🌱 Overuse of pesticides can damage soil quality</li>
+                <li>🐛 Some pests become resistant to chemicals over time</li>
+                <li>🌾 Proper pesticide use can increase crop yield significantly</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Smart Farming Facts -->
+        <section>
+            <h3>📊 Smart Farming Facts</h3>
+
+            <table border="1" cellpadding="10">
+                <tr>
+                    <th>Topic</th>
+                    <th>Fact</th>
+                </tr>
+                <tr>
+                    <td>Soil Health</td>
+                    <td>Healthy soil improves crop growth naturally</td>
+                </tr>
+                <tr>
+                    <td>Weather</td>
+                    <td>Rain can wash away pesticides</td>
+                </tr>
+                <tr>
+                    <td>Pest Control</td>
+                    <td>Early detection reduces damage</td>
+                </tr>
+            </table>
         </section>
 
     </main>
 
     <hr>
 
-     <footer>
+    <!-- Mini Quiz -->
+    <section>
+        <h3>🧠 Quick Farmer Quiz</h3>
+
+        <form>
+            <p>1. When should pesticides be avoided?</p>
+            <input type="radio" name="q1"> During rain<br>
+            <input type="radio" name="q1"> Early morning<br>
+
+            <p>2. What helps improve crop health?</p>
+            <input type="radio" name="q2"> Proper soil care<br>
+            <input type="radio" name="q2"> Random spraying<br>
+
+            <br>
+            <input type="submit" value="Submit Answer">
+        </form>
+    </section>
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
         <center>
-
-
             <p><b>🌱 Smart Agriculture System🌱</b></p>
             <p>Email:<a href="mailto:support@agriculture.com">support@agriculture.com</a> | Phone:
-                <a href="tel:9359910468">9359910468</a></p>
+                <a href="tel:9359910468">9359910468</a>
+            </p>
             <p><small>2026 All Rights Reserved</small></p>
         </center>
     </footer>
